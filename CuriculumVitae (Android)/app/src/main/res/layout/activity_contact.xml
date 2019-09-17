@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sss"
+    android:padding="30dp"
+    tools:context=".Contact">
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="200dp"
+        android:id="@+id/contact">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Me"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textStyle="italic"/>
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp">
+
+            <TableRow>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_call_black_24dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+62 812-1311-702"
+                    android:layout_marginTop="10dp"
+                    android:textSize="30dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="20dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_email_black_24dp"
+                    android:layout_marginBottom="10dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="bagaskara.psb@gmail.com"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20dp"/>
+            </TableRow>
+
+
+
+
+
+        </TableLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

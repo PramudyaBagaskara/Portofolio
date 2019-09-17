@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/sss"
+    tools:context=".Experiance">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Experiance"
+        android:textColor="@color/cardview_light_background"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="italic"/>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/certcss">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+
+            android:src="@drawable/cert_css"/>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/phpcert"
+        android:layout_below="@+id/certcss">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+
+            android:src="@drawable/cert_php"/>
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
